@@ -1,21 +1,22 @@
-# Project Name
+# NISOFT Schema build
 
-A short description of what this project does and who it's for.
+Create new schema for G&T Thermal Group: NISOFT_GLBG - Glenbrook BESS Power Station
 
 ---
 
-## 🚀 Features
-- Feature 1
-- Feature 2
-- Feature 3
+## 🚀 Process
+- Create the required tablespace
+- Create the NISOFT schema with require permission
+- Import the blank schema dump
+- UPdate the PREFERENCES table 
+    - MULTI_DB_ABBREV --Used for creating users on Multi Database instance 
+    - SITE_NAME -- The name of the site to appear on the documsystem and documnet 
+    - Configure the user
+- Import
+    - EQUIPMENT 
+    - EQUIPMENT_AREA
+    - OPERATIONAL_AREA
 
 ---
 
 ## 📦 Installation
-
-Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-# install dependencies if needed
