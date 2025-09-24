@@ -1,0 +1,1 @@
+SELECT * from NISOFT_GLBG.USERS;
