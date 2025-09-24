@@ -23,5 +23,5 @@ Create new schema for G&T Thermal Group: NISOFT_GLBG - Glenbrook BESS Power Stat
 ## 📦 Please use the dumpfile under dumpfile folder
 - imp commnd to user 
 
-`impdp sc_export/pasword PARFILE=imp.par (place the par file into the export/import folder)
+` shell impdp sc_export/pasword PARFILE=imp.par` (place the par file into the export/import folder)
 
